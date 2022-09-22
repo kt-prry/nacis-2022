@@ -2,11 +2,11 @@
 
 Happy NACIS! This repo contains scripts and sample data to generate pngs with transparent backgrounds out of geotiffs programmatically.
 
-`1_create_palette.R`: Quick script where you supply hex codes for your color palette. You'll define the `custom_color_palette` in this script, which we'll use in the next step.
-`2_generate_pngs.R`: This script applies the custom color palette, generates pngs with a white background, and then reads the images back in to remove the white background.
-`3_resize_pngs.R`: This script scales the pngs to the size of the basemap. 
-`4_crop_all_images.R`: This script crops the basemap and resized pngs so that they're all the same size.
-`_color_palettes.R`: Helper functions used in the `1_create_palette` script to create custom color palettes with non-linear interpolation.
+* `1_create_palette.R`: Quick script where you supply hex codes for your color palette. You'll define the `custom_color_palette` in this script, which we'll use in the next step.
+* `2_generate_pngs.R`: This script applies the custom color palette, generates pngs with a white background, and then reads the images back in to remove the white background.
+* `3_resize_pngs.R`: This script scales the pngs to the size of the basemap. 
+* `4_crop_all_images.R`: This script crops the basemap and resized pngs so that they're all the same size.
+* `_color_palettes.R`: Helper functions used in the `1_create_palette` script to create custom color palettes with non-linear interpolation.
 
 *Created by Kati Perry (<kati.perry@washpost.com>)*
 
@@ -21,7 +21,7 @@ Happy NACIS! This repo contains scripts and sample data to generate pngs with tr
 
 ### Data sources
 
-Sample sea ice concentration data comes from the (NSIDC)[https://nsidc.org/home]. 
+Sample sea ice concentration data comes from the [NSIDC](https://nsidc.org/home). 
 
 ## Technical
 
