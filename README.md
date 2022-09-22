@@ -1,6 +1,6 @@
 # nacis-2022
 
-Happy NACIS! This repo contains scripts and sample data to generate pngs with transparent backgrounds out of geotiffs programmatically.
+Happy NACIS! This repo contains scripts and sample data to generate pngs with transparent backgrounds out of geotiffs programmatically. I used this process to create map layers for the opening map in a [story about disappearing sea ice and the impact on polar bears](https://projects.apnews.com/features/2021/polar-bears-sea-ice/index.html).
 
 * `1_create_palette.R`: Quick script where you supply hex codes for your color palette. You'll define the `custom_color_palette` in this script, which we'll use in the next step.
 * `2_generate_pngs.R`: This script applies the custom color palette, generates pngs with a white background, and then reads the images back in to remove the white background.
@@ -36,7 +36,3 @@ After cloning the git repo:
 Open `nacis-2022.Rproj` in RStudio.
 
 *TK: For more complex or unusual projects additional directions follow*
-
-## Data notes
-
-*Add important caveats, limitations, and source contact info here.*
