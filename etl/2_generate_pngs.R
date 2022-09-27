@@ -1,6 +1,7 @@
 library(stringr)
 library(raster)
 library(magick)
+library(grDevices)
 
 # This script generates pngs with white backgrounds and then reads
 # those files back in to make white pixels transparent. Because the pixels

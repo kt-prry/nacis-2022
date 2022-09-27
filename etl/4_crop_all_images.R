@@ -17,7 +17,7 @@ final_dir <- "data/processed/final"
 
 ##### Crop geom string ####
 # Crop geometry string
-crop_dim <- "2100x1300+500+500"
+crop_dim <- "2100x1300+500+500" # {width}x{height}x{startingAtThisX}x{startingAtThisY}
 
 ##### Loooooop #####
 # Crop resized ice images
