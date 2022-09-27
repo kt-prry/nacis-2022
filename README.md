@@ -12,20 +12,13 @@ Happy NACIS! This repo contains scripts and sample data to generate pngs with tr
 
 *Reporter: Kati Perry (<kati.perry@washpost.com>)*
 
-## Project goal
-
-*TK: Briefly describe this project*
-
 ## Project notes
-
 
 ### Data sources
 
 Sample sea ice concentration data comes from the [NSIDC](https://nsidc.org/home). 
 
-## Technical
-
-*TK: Instructions on how to bootstrap project, run ETL processes, etc.*
+### Technical
 
 An outline of the basic project structure is available at https://github.com/associatedpress/cookiecutter-r-project
 
@@ -35,4 +28,3 @@ After cloning the git repo:
 
 Open `nacis-2022.Rproj` in RStudio.
 
-*TK: For more complex or unusual projects additional directions follow*
