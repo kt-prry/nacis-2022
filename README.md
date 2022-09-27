@@ -16,7 +16,7 @@ Happy NACIS! This repo contains scripts and sample data to generate pngs with tr
 
 ### Data sources
 
-Sample sea ice concentration data comes from the [NSIDC](https://nsidc.org/home). Basemap was made with a [Natural Earth](https://www.naturalearthdata.com/downloads/) data. 
+Sample sea ice concentration data comes from the [NSIDC](https://nsidc.org/home). Basemap was made with [Natural Earth](https://www.naturalearthdata.com/downloads/) data. 
 
 ### Technical
 
