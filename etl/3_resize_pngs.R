@@ -30,12 +30,14 @@ for (i in seq_along(transparent_pngs)) {
   image <- image_read(str_interp("${dir}/${transparent_pngs[i]}"))
   scaled_image <- image_scale(image, str_interp("${base_width}x${base_height}"))
 
-  # Create composite of all layers
+  # Change the size of the file without actually scaling the content
   final <- image_extent(scaled_image, str_interp("${base_width}x${base_height}"))
 
   image_write(final, path = str_interp("${out_dir}/${transparent_pngs[i]}"), format = "png")
   print("Image reszied!")
 }
 
-print(image_info(scaled_image))
-print(image_info(final))
+print(basemap)
+print(image)
+print(scaled_image)
+print(final)
